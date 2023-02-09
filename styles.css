@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 8px 64px;
+    padding: 8px 15%;
 }
 
 header .logo {
@@ -47,14 +47,46 @@ header a {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    padding: 0 64px;
+    padding: 100px 15%;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
 }
 
 .hero-text h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
 }
+
+.hero-text p {
+    color: #e5e7eb;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-placeholder {
+    background-color: #e5e7eb;
+    padding: 20px;
+    flex: 1;
+    align-self: stretch;
+}
+
 
 /* end hero    */
 
@@ -63,7 +95,7 @@ header a {
 /* begin cards */
 
 .cards-container {
-    padding: 32px 64px;
+    padding: 32px 15%;
 }
 
 .cards-container h2 {
@@ -77,6 +109,7 @@ header a {
 .cards-container .cards {
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 
 .card-image {
@@ -107,7 +140,7 @@ header a {
     font-weight: lighter;
     display: flex;
     flex-direction: column;
-    padding: 0 64px;
+    padding: 0 15%;
 }
 
 .quote .quoter {
@@ -123,7 +156,7 @@ header a {
 .cta {
     background-color: #3882f6;
     color: white;
-    margin: 64px 20%;
+    margin: 64px 15%;
     border-radius: 10px;
     padding: 32px 64px;
     display: flex;
@@ -140,11 +173,10 @@ header a {
     color: #e5e7eb;
     border: 2px #e5e7eb solid;
     border-radius: 10px;
-    padding: 8px 16px;
+    padding: 16px 32px;
+    font-size: 16px;
     font-weight: bold;
-    display: block;
-    flex-basis: 160px;
-
+    align-self: flex-start;
 }
 
 
